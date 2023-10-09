@@ -1,0 +1,21 @@
+Cloud_pct
+Temp
+Feels_like
+Humidity
+Min_temp
+Max_temp
+Wind_speed
+Wind_degrees
+Sunrise
+Sunset
+
+    document.getElementByIdcloud_pct.innerHTML=result.cloud_pct
+    document.getElementByIdtemp.innerHTML=result.temp
+    document.getElementByIdfeels_like.innerHTML=result.feels_like
+    document.getElementByIdhumidity.innerHTML=result.humidity
+    document.getElementByIdmin_temp.innerHTML=result.min_temp
+    document.getElementByIdmax_temp.innerHTML=result.max_temp
+    document.getElementByIdwind_speed.innerHTML=result.wind_speed
+    document.getElementByIdwind_degrees.innerHTML=result.wind_degrees
+    document.getElementByIdsunrise.innerHTML=result.sunrise
+    document.getElementByIdsunset.innerHTML=result.sunset
